@@ -39,9 +39,8 @@ You need to have at least **python 3.6** installed to use System Sensors.
 
 1. Clone this repo >> git clone https://github.com/Sennevds/system_sensors.git
 2. `cd system_sensors`
-3. `sudo apt-get install python3-dev`
-4. `sudo apt-get install python3-apt`
-5. `pip3 install -r requirements.txt`
+3. `sudo apt-get install python3-dev python3-apt`
+4. `pip3 install -r requirements.txt`
 6. Edit settings_example.yaml in "~/system_sensors/src" to reflect your setup and save as settings.yaml:
 
 | Value                           | Required | Default | Description                                                                                                                                     |
